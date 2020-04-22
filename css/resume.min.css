@@ -1,0 +1,317 @@
+/*!
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+body {
+  font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: #868e96
+}
+
+@media (min-width:992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem
+}
+
+h2 {
+  font-size: 3.5rem
+}
+
+h3 {
+  font-size: 2rem padding-left:0px
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+  color: #868e96
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem
+}
+
+.social-icons a:last-child {
+  margin-right: 0
+}
+
+a {
+  color: #8F2B36;
+}
+
+.social-icons a:hover {
+  background-color: #8F2B36
+}
+
+.dev-icons {
+  font-size: 3rem
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #8F2B36
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: .05rem;
+  text-transform: uppercase
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #3D65A2
+}
+
+@media (min-width:992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh
+  }
+
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: .5rem
+  }
+
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: .5rem solid rgba(255, 255, 255, .2)
+  }
+
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto
+  }
+
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%
+  }
+
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block
+  }
+
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block
+  }
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none
+}
+
+@media (min-width:768px) {
+  section.resume-section {
+    min-height: 100vh
+  }
+
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem
+  }
+}
+
+@media (min-width:992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important
+  }
+}
+
+ul li .fab {
+  margin-top: 30px !important;
+}
+
+ul li .icon-detail {
+  position: absolute;
+  margin-top: -10px;
+  width: auto;
+  color: #8F2B36;
+  box-sizing: border-box;
+  border-radius: 4px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateX(0) translateY(-25px);
+}
+
+ul li:hover .icon-detail {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0) translateY(0px);
+}
+
+.text-detail {
+  color: #8F2B36;
+}
+
+.text-detail:hover {
+  color: #8F2B36 !important;
+}
+
+.box-detail {
+  /*-webkit-filter: grayscale(1); */
+  background: #f2f2f2;
+  margin: 0px 0px 20px;
+  padding: 20px 20px 20px;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px 0px rgba(189, 189, 189, 1);
+}
+
+.box-detail:hover {
+  -webkit-filter: grayscale(0);
+}
+ul li a{
+  color: #868e96;
+}
+ul li a:hover{
+  color: #8F2B36;
+}
+.bg-primary {
+  background: linear-gradient(135deg, #8F2B36 0%, #3D65A2 100%)
+}
+
+.text-primary {
+  color: #8F2B36 !important
+}
+.crater {
+  width: 95%;
+  min-width: 250px;
+  height: auto;
+  margin: 10px 0px 10px 0px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 2px rgba(189, 189, 189, 1);
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1);
+  /* Microsoft Edge and Firefox 35+ */
+  transition: .3s all ease-in-out;
+}
+
+.crater:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+  transform: scale(1.03);
+  box-shadow: none;
+}
+.thumbnail {
+  text-align: center;
+}
+
+.box {
+  height: auto;
+  width: 250px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 20px 15px 20px 0px;
+  box-shadow: 0px 0px 8px #495057;
+}
+
+.box-second {
+  height: auto;
+  width: 250px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 20px 15px 20px 0px;
+  box-shadow: 0px 0px 8px #495057;
+}
+
+.box:hover {
+  background: linear-gradient(130deg, #8F2B36 0%, #3D65A2 100%);
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.box:hover .icon {
+  color: white;
+  transition: .3s all ease-in-out;
+}
+
+.box:hover .title {
+  color: white;
+  transition: .3s all ease-in-out;
+}
+
+.box:hover .desc {
+  color: white;
+  transition: .3s all ease-in-out;
+}
+
+.boxContent {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.box-patent{
+width: 250px;
+}
+.icon {
+  color: #495057;
+  font-size: 48px;
+  padding: 10px;
+}
+
+.title {
+  font-size: 24px;
+  color: #495057;
+  font-weight: bold;
+  padding: 10px;
+  line-height: 1.5rem;
+}
+
+.desc {
+  color: #868e96;
+  font-size: 15px;
+  height: 20%;
+  line-height: 1.5rem;
+}
