@@ -294,6 +294,10 @@ ul li a:hover{
   transition: .3s all ease-in-out;
 }
 
+.box:hover .lucky{
+  transition: .2s all ease-in-out;
+  -webkit-filter: invert(1);
+}
 .boxContent {
   justify-content: center;
   align-items: center;
