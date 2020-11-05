@@ -242,6 +242,7 @@ ul li a:hover{
   text-align: center;
 }
 
+
 .box {
   height: auto;
   width: 250px;
@@ -258,6 +259,18 @@ ul li a:hover{
   background-color: white;
   margin: 20px 15px 20px 0px;
   box-shadow: 0px 0px 8px #495057;
+}
+
+@media(max-width:561px){
+  .box {
+    width: 100% !important;
+  }
+  .box-second{
+    width: 100% !important;
+  }
+  h1 {
+    font-size: 4.5rem;
+  }
 }
 
 .box:hover {
